@@ -29,7 +29,7 @@
 
 ## 🎥 Demo
 
-> 🔗 [Watch the Demo Video](Assets/Demo.mp4)  
+> (Assets/Demo.mp4)  
 
 
 

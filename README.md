@@ -30,9 +30,8 @@
 ## 🎥 Demo
 
 > 🔗 [Watch the Demo Video](https://your-demo-link.com)  
-> 🧪 *Try it in your space with an Android or iOS device.*
 
----
+
 
 ## 📲 How It Works
 

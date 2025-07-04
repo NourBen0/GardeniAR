@@ -4,7 +4,7 @@
 
 **GardeniAR** is a calming and interactive **Augmented Reality (AR)** mobile application that transforms your surroundings into a flourishing virtual garden. Whether you live in a small apartment or simply want to enjoy the serenity of gardening without the mess, GardeniAR lets you **place, grow, and interact with beautiful virtual plants** — right in your own space.
 
-![GardeniAR AR Preview](assets/gardeniar-preview.gif) <!-- Add an actual GIF or video link -->
+![GardeniAR AR Preview](assets/gardeniar-preview.gif) 
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## 🎥 Demo
 
-> 🔗 [Watch the Demo Video](Assets/Demp.mp4)  
+> 🔗 [Watch the Demo Video](Assets/Demo.mp4)  
 
 
 

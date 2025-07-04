@@ -29,10 +29,7 @@
 
 ## 🎥 Demo
 
-<video width="600" controls>
-  <source src="Assets/demo.gif" type="video/gif">
-  Your browser does not support the video tag.
-</video>
+![GardeniAR Demo](Assets/demo.gif)
 
 
 ## 📲 How It Works

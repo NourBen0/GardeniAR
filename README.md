@@ -30,7 +30,7 @@
 ## 🎥 Demo
 
 <video width="600" controls>
-  <source src="Assets/demo.mp4" type="video/mp4">
+  <source src="Assets/demo.gif" type="video/gif">
   Your browser does not support the video tag.
 </video>
 

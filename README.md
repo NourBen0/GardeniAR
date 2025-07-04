@@ -29,7 +29,7 @@
 
 ## 🎥 Demo
 
-![GardeniAR Demo](Assets/Demo.gif)
+![GardeniAR Demo](GardeniAR/Assets/Demo.gif)
 
 
 ## 📲 How It Works

@@ -26,7 +26,6 @@
   Move, rotate, and arrange your plants to create a virtual garden that's uniquely yours.
 
 ---
-
 ## 🎥 Demo
 
 ![GardeniAR Demo](Assets/Demo.gif)

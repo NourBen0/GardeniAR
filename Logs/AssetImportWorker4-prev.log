@@ -1,0 +1,716 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.46f1 (8e9b8558c41a) revision 9345925'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 32490 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.46f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/nourb/GardeniAR
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58558
+Successfully changed project path to: C:/Users/nourb/GardeniAR
+C:/Users/nourb/GardeniAR
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36500]  Target information:
+
+Player connection [36500]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2354054053 [EditorId] 2354054053 [Version] 1048832 [Id] WindowsEditor(7,mija) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36500]  * "[IP] 192.168.1.16 [Port] 0 [Flags] 2 [Guid] 2354054053 [EditorId] 2354054053 [Version] 1048832 [Id] WindowsEditor(7,mija) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [36500] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [36500] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 13.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.46f1 (8e9b8558c41a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/nourb/GardeniAR/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.46f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009546 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 230 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 881ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (448ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (297ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.621 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1290ms
+	BeginReloadAssembly (123ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (421ms)
+		LoadAssemblies (313ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (672ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (534ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (371ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 4.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4401 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (1.2 MB). Loaded Objects now: 4868.
+Memory consumption went from 152.0 MB to 150.8 MB.
+Total: 3.775700 ms (FindLiveObjects: 0.305000 ms CreateObjectMapping: 0.111500 ms MarkObjects: 2.797300 ms  DeleteObjects: 0.560500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.597 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.182 seconds
+Domain Reload Profiling: 1774ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (367ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (39ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1183ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (535ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 5.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4387 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.2 MB). Loaded Objects now: 4872.
+Memory consumption went from 149.5 MB to 148.4 MB.
+Total: 3.668100 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.739600 ms  DeleteObjects: 0.498100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.554 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.128 seconds
+Domain Reload Profiling: 1679ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (308ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (55ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (14ms)
+			ScanForSourceGeneratedMonoScriptInfo (19ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (564ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (123ms)
+			ProcessInitializeOnLoadAttributes (380ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 5.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4794 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (1.3 MB). Loaded Objects now: 5283.
+Memory consumption went from 157.5 MB to 156.2 MB.
+Total: 4.020900 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.158000 ms MarkObjects: 2.994400 ms  DeleteObjects: 0.512700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ARGestureInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRControllerState.deprecated.cs: 30feb69e0e7d49f86ea25a72c54bdb39 -> 
+  custom:scripting/monoscript/fileName/XRDirectInteractorEditor.cs: 8920d36979dfa760b5ce879eed054db7 -> 
+  custom:scripting/monoscript/fileName/PokeThresholdDatumPropertyDrawer.cs: b6f4e12f1f0d2ca8a702d8355142966b -> 
+  custom:scripting/monoscript/fileName/LocomotionSystem.cs: 69f381ad62705ff34d1d2c2f224938f8 -> 
+  custom:scripting/monoscript/fileName/FollowPresetDatumPropertyDrawer.cs: 3d347b12cab18fd255235e256de611e9 -> 
+  custom:scripting/monoscript/fileName/InputHelpers.cs: f8e4f3001fb288daafc75ef168dc221b -> 
+  custom:scripting/monoscript/fileName/GestureRecognizer.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IXRRayProvider.cs: 58f319a8961355adf693bdb82f3aa296 -> 
+  custom:scripting/monoscript/fileName/QuaternionTweenableVariable.cs: 3eeca9e5910af48a4287cfdfac8d60d8 -> 
+  custom:scripting/monoscript/fileName/GrabMoveProvider.cs: 567d5f2f738142b331ccba959d9b85a9 -> 
+  custom:scripting/monoscript/fileName/PokeThresholdData.cs: 7f8bf488f8d1eae1fce1476741fae16d -> 
+  custom:scripting/monoscript/fileName/CanFocusMultipleAttribute.cs: f3013377334085a1b02a37e3c01ef181 -> 
+  custom:scripting/monoscript/fileName/BaseAsyncAffordanceStateReceiver.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/BaseTeleportationInteractableEditor.cs: 588e766034b22e973fdc992738c56148 -> 
+  custom:scripting/monoscript/fileName/XRInputTrackingAggregator.cs: c9219d437da7b7315260ba670aaa9c85 -> 
+  custom:scripting/monoscript/fileName/ActionBasedSnapTurnProvider.cs: 3a8d7cf55b0e7d3439682058fe86ad6e -> 
+  custom:scripting/monoscript/fileName/XRController.cs: f915c2c66b01fbe9ef4978b961512634 -> 
+  custom:scripting/monoscript/fileName/XRGrabInteractableEditor.cs: dd764c9579643bce9886a5d3de0c1ff8 -> 
+  custom:scripting/monoscript/fileName/XRGazeInteractorEditor.cs: 3f6cbe71061dd79447fb814220619f96 -> 
+  custom:scripting/monoscript/fileName/IXRFocusInteractable.cs: 45a8469fc775f267435db6ed3840fdf4 -> 
+  custom:scripting/monoscript/fileName/XRDeviceSimulator.cs: d6669cca22e9c3ebd9c9a7693cb4d344 -> 
+  custom:scripting/monoscript/fileName/InteractionLayerUpdater.cs: b313cf28b817ea4e7fd46320b71321e7 -> 
+  custom:scripting/monoscript/fileName/XRDualGrabFreeTransformerEditor.cs: d8c3b2bd7ffc1c8d4b0da3679a3e46d0 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/TeleportationMultiAnchorVolume.cs: 6a372d3d5500fd8e1e6fd13c3962868b -> 
+  custom:scripting/monoscript/fileName/IXRInteractionGroup.cs: 65b972d4031cca83c1f073e6dc511165 -> 
+  custom:scripting/monoscript/fileName/ARPlacementInteractableEditor.cs: 8fc9b2109f918704700113fee17b0cd7 -> 
+  custom:scripting/monoscript/fileName/XRHelpURLConstants.deprecated.cs: 7a5beb455c744c93847a166db6e29e55 -> 
+  custom:scripting/monoscript/fileName/XRInteractableAffordanceStateProvider.cs: 330b909afdfb2023f8b66179a46958f6 -> 
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthFilter.cs: 0934e56af4d0394df5ff032f070184d1 -> 
+  custom:scripting/monoscript/fileName/IXRSelectInteractable.cs: 37bf2741a24f6240967d50c355d0a6cc -> 
+  custom:scripting/monoscript/fileName/XRSimulatedHandState.cs: 6301e2b69347b657eb67ea0fc2a541d1 -> 
+  custom:scripting/monoscript/fileName/AffordanceStateShortcuts.cs: e2071b4c188327ad25586ae27274ad4f -> 
+  custom:scripting/monoscript/fileName/ARSelectionInteractable.cs: 8b35113267d060c24c68735599800397 -> 
+  custom:scripting/monoscript/fileName/ProjectPath.cs: 4412bfc8301793f386bd4d06a391102a -> 2007f972d3a73eeb86dfe05e849c7f69
+  custom:scripting/monoscript/fileName/PackageManagerEditorHelper.cs: 55c68bab017fb629836b2a33cd11da13 -> 
+  custom:scripting/monoscript/fileName/ARGestureInteractorEditor.cs: 928fec843644c545b7c33c5c882a6d90 -> 
+  custom:scripting/monoscript/fileName/XRInteractionToolkitSettingsProvider.cs: 466af331d9c5ba6c063b3d7ed5c4b10d -> 
+  custom:scripting/monoscript/fileName/XRGrabInteractable.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/FallbackComposite.cs: f31f49c40db5e68e461aeb74573ac33b -> 
+  custom:scripting/monoscript/fileName/IXRHoverInteractable.cs: fb465df486024344a71a88280cfcb961 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceEventData.cs: 38a4161369ac08076197ffcfc1aa9721 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/IARInteractor.cs: 845ca65e372af4298092e3255273e9ac -> 
+  custom:scripting/monoscript/fileName/ClimbInteractableEditor.cs: efbd8d229dc456334683597de92eba8c -> 
+  custom:scripting/monoscript/fileName/IAffordanceStateReceiver.cs: 315f857466a4c1b4f032b74f2b8a5bbb -> 
+  custom:scripting/monoscript/fileName/TeleportationAnchorEditor.cs: 2ab65dda924dee90b99aa95eba2773bb -> 
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorEditor.cs: bbde6d4cde983f79176c9e2a131f742c -> 
+  custom:scripting/monoscript/fileName/DisposableManagerSingleton.cs: a23d0b043813b455c0f1bb71fe00bd6a -> 
+  custom:scripting/monoscript/fileName/IXRInteractable.cs: b8d00e269f910b8775fa756040f09dfb -> 
+  custom:scripting/monoscript/fileName/PositionHandleUtility.cs: bc3b28f4105d0bac78ec44b0701a40aa -> 
+  custom:scripting/monoscript/fileName/XRInteractablesTreeView.cs: d1bc48303affbf0fed215335ba13ca4e -> 
+  custom:scripting/monoscript/fileName/Vector4AffordanceReceiver.cs: 4bad121e84ee6ac750103ad2c7fb319c -> 
+  custom:scripting/monoscript/fileName/XRInteractionEvents.cs: f60e86a86638c89a143bffc723344fff -> 
+  custom:scripting/monoscript/fileName/FurthestTeleportationAnchorFilter.cs: 170d136e43aef5ba82c52779bdb89248 -> 
+  custom:scripting/monoscript/fileName/IXRSelectFilter.cs: 2e38231bb7796f816ab3fe82bc78c572 -> 
+  custom:scripting/monoscript/fileName/FloatMaterialPropertyAffordanceReceiver.cs: 8f0f362be917bb54eda2683129f9f4fe -> 
+  custom:scripting/monoscript/fileName/CharacterControllerDriver.cs: d59bec36692ce8a40f09a7d81230a80f -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/RequireInterfaceDrawer.cs: fe1b27d9bb0fc15b545bc4f9b3d0fcc3 -> 
+  custom:scripting/monoscript/fileName/XRInteractionEditorSettings.cs: b5e3e022d7b3d4d14e9496d9ffc06f24 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IXRFilterList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSocketInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AffordanceStateData.cs: d1d62b8d8e696751af0c4edf7ce63e15 -> 
+  custom:scripting/monoscript/fileName/TriggerContactMonitor.cs: 5308012c85bc61918668d060d694b733 -> 
+  custom:scripting/monoscript/fileName/EventMigrationUtility.deprecated.cs: b0f8f6f94922a3423f0465a6c535b03a -> 
+  custom:scripting/monoscript/fileName/IXRInteractableCustomReticle.cs: f3fc2b7536c8ac4540864f1efe0f5e92 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceGraphicRaycaster.cs: ffe9bcf3f7fba82499d72bbf2d369f51 -> 
+  custom:scripting/monoscript/fileName/XRDualGrabFreeTransformer.cs: 4e901a878945b07d92064dd582f2c902 -> 
+  custom:scripting/monoscript/fileName/IXRSelectInteractor.cs: 98d9a2bc0457360b8b3695053ef96e5a -> 
+  custom:scripting/monoscript/fileName/XRRayInteractorEditor.deprecated.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/XRInteractionGroup.cs: 67a2e9bd369bfceca32c46f4939b26ad -> 
+  custom:scripting/monoscript/fileName/ColorTweenJob.cs: 49cdb9b9003c5d87010e3b1602f600e1 -> 
+  custom:scripting/monoscript/fileName/Vector4AffordanceThemeDatumPropertyDrawer.cs: 7c8893beae89d3c429ef3d8aa828bbca -> 
+  custom:scripting/monoscript/fileName/AudioAffordanceThemeDatumPropertyDrawer.cs: f6a4026765b9182c71238c3b1eb5c19c -> 
+  custom:scripting/monoscript/fileName/GazeTeleportationAnchorFilterEditor.cs: c01e2023ce38344c40aad7ad2e435de0 -> 
+  custom:scripting/monoscript/fileName/XRRayInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/BurstPhysicsUtils.cs: 03d4ba05a958fa0d4b37404cdb923462 -> 
+  custom:scripting/monoscript/fileName/XRUIInputModule.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRBaseControllerEditor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRHandSkeletonPokeDisplacer.cs: fc912ce4ecfc015a2468824bfa22a444 -> 
+  custom:scripting/monoscript/fileName/XRSingleGrabFreeTransformer.cs: d4239a25c4293b42a12bb6a81ed3c57e -> 
+  custom:scripting/monoscript/fileName/XRScreenSpaceController.cs: 1c13a39eb94798344a7ca3956ef13164 -> 
+  custom:scripting/monoscript/fileName/XRTransformStabilizer.cs: 43fe88a528b18a68dbb16ee10a4ff224 -> 
+  custom:scripting/monoscript/fileName/XRControllerRecorder.cs: 913dd736db6c30f59c9649eb2eb0c157 -> 
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEditorUtility.cs: 3d022b831f5659cda3686543ba355657 -> 
+  custom:scripting/monoscript/fileName/XRPokeLogic.cs: e2b1def565c1e1d5cfe10a23758c8b57 -> 
+  custom:scripting/monoscript/fileName/TouchModel.cs: 4a9987cc8b20a24f5411889b0969dac6 -> 
+  custom:scripting/monoscript/fileName/InteractionLayerMaskDrawer.cs: 2dd41f6cee21469bf08be3a69a31583a -> 
+  custom:scripting/monoscript/fileName/GestureTransformationUtility.deprecated.cs: 4a0b743766d636156f7d9de571404ccf -> 
+  custom:scripting/monoscript/fileName/PooledObject.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorsScoreTreeView.cs: 9cd4d1046103234400aab9409d666c8c -> 
+  custom:scripting/monoscript/fileName/ActionBasedControllerEditor.cs: bb433160ae5801abbc22b4f1bcfca9b6 -> 
+  custom:scripting/monoscript/fileName/TeleportVolumeDestinationSettingsDatumProperty.cs: 741538dd1b46356626b1429d9643dd66 -> 
+  custom:scripting/monoscript/fileName/ARTransformer.cs: e7e217f01217c2762a94b1ceb8563a3e -> 
+  custom:scripting/monoscript/fileName/LocomotionUtility.cs: e10495371a58472fac62779e85f653be -> 
+  custom:scripting/monoscript/fileName/SmartFollowQuaternionTweenableVariable.cs: e01bfdc0d96ae6c230ef9f5c3d840467 -> 
+  custom:scripting/monoscript/fileName/UIInputModule.Events.cs: cf91ec523ea5be6df878ee8b6584c221 -> 
+  custom:scripting/monoscript/fileName/BlendShapeAffordanceReceiver.cs: 112246585a0fcfd068b95d87a452d39f -> 
+  custom:scripting/monoscript/fileName/XRSimulatedControllerState.cs: b58309ecc339e9f6984a8c78c325c158 -> 
+  custom:scripting/monoscript/fileName/Vector3MaterialPropertyAffordanceReceiver.cs: a39ede5d38b4884d82676fd336f8845e -> 
+  custom:scripting/monoscript/fileName/ARPlacementInteractable.cs: 94a8d15403d4a1d4e220dbb753d517ca -> 
+  custom:scripting/monoscript/fileName/TeleportVolumeDestinationSettingsDatumPropertyDrawer.cs: b1f2ee895e7e32ae0a0fed9bcd94f859 -> 
+  custom:scripting/monoscript/fileName/CanvasOptimizer.cs: 2d9fbec9885e0fa49ba59cbbb2b066ce -> 
+  custom:scripting/monoscript/fileName/MaterialInstanceHelper.cs: 2140738dc434b4984a0674cb5440a884 -> 
+  custom:scripting/monoscript/fileName/ComponentLocatorUtility.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRInteractableSnapVolumeEditor.cs: 2612961c50720a3907524141b3cb4230 -> 
+  custom:scripting/monoscript/fileName/LocomotionProvider.cs: 25b1af6a5d0811f9303414c80aeaaad3 -> 
+  custom:scripting/monoscript/fileName/ActionBasedContinuousMoveProvider.cs: 7d278550d708297b0a37af5b2375ff60 -> 
+  custom:scripting/monoscript/fileName/XRPokeFilter.cs: d25513cc5875a49a4fdc38e85e815c88 -> 
+  custom:scripting/monoscript/fileName/XRControllerRecorderEditor.cs: 2becc3aec59f41c99aa8c09695349616 -> 
+  custom:scripting/monoscript/fileName/Vector4TweenableVariable.cs: a862c927e11ac403167ebffbe50aa9a7 -> 
+  custom:scripting/monoscript/fileName/XRPokeInteractor.cs: a14e361f62a435582e84c03c1efeaeff -> 
+  custom:scripting/monoscript/fileName/XRControllerRecordingEditor.cs: 592b2ff2caef963edc7b4a3176355955 -> 
+  custom:scripting/monoscript/fileName/TweenableVariableBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ExposedRegistrationList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/IPokeStateDataProvider.cs: 583f4cc37fc0e84731775d736b4a8b1f -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/GestureRecognizer.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
+  custom:scripting/monoscript/fileName/XRSocketInteractor.cs: 77576547a356d6e9c9d09ddb94ebdf12 -> 
+  custom:scripting/monoscript/fileName/XRInteractionManager.cs: 8458d8e690f18aea3c5d64c040cc1023 -> 
+  custom:scripting/monoscript/fileName/LocomotionProvider.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARTranslationInteractableEditor.cs: 928d24cdfcc1575ed4a8e19c1f8f478c -> 
+  custom:scripting/monoscript/fileName/XRControllerRecording.cs: ea167bf076a7740d287329ce3e65396f -> 
+  custom:scripting/monoscript/fileName/XRTargetEvaluator.cs: b16d7a5b4e19d2e8b36e19f2d0969fd8 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceModel.deprecated.cs: 6a9a21e2d68f07dc1d721deb32ed0efe -> 
+  custom:scripting/monoscript/fileName/SmartFollowVector3TweenableVariable.cs: 275b0abe86c097ca8b877bc19bf92f90 -> 
+  custom:scripting/monoscript/fileName/IXRActivateInteractor.cs: 2c3f3c3c5694d861ce742ca59cb542a4 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/XRTargetFilter.cs: 5715e51d114807c08143f7cb237a97c9 -> 
+  custom:scripting/monoscript/fileName/TeleportationArea.cs: a1dc7b31dde2622e260d6cb3bbf6c3f3 -> 
+  custom:scripting/monoscript/fileName/IXRHoverInteractor.cs: 37a80d415b4e3c8b74f9d320b52df4fc -> 
+  custom:scripting/monoscript/fileName/RequireInterfaceAttribute.cs: c5f76685c6110dabcbd3746c51f7eaa0 -> 
+  custom:scripting/monoscript/fileName/IXRGrabTransformer.cs: ddb6cf57c5d89cb73ca2df6c9d2339a7 -> 
+  custom:scripting/monoscript/fileName/XRUIInputModule.cs: 699fea81d51f44a84cb2f0bb64fad6ac -> 
+  custom:scripting/monoscript/fileName/XRGazeInteractor.cs: 0ad1b7f567e509e3c6acabd914001540 -> 
+  custom:scripting/monoscript/fileName/XRInteractorLineVisual.cs: a7322de680a5f4b548100b720ff003d0 -> 
+  custom:scripting/monoscript/fileName/XRGrabInteractable.cs: f5a959c9c01117ffbf0f1b953669c448 -> 
+  custom:scripting/monoscript/fileName/GazeTeleportationAnchorFilter.cs: e7d66728f58b6bbd2ff0385fa4e81e9b -> 
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthInteractable.cs: fc8c8ac6bd5b7a479ab5ef94dd5ca87e -> 
+  custom:scripting/monoscript/fileName/SectorInteraction.cs: 87af26b46b1e61de956bd279678d7b1a -> 
+  custom:scripting/monoscript/fileName/DeviceBasedContinuousTurnProvider.cs: b0c172988bc5a28b599bc9895d177fe8 -> 
+  custom:scripting/monoscript/fileName/DistanceInfo.cs: 6fa6243501415911d87e78c25a1d5880 -> 
+  custom:scripting/monoscript/fileName/GestureTouchesUtility.cs: 441d39d00e5c5c3f831acdf83030ad19 -> 
+  custom:scripting/monoscript/fileName/XRDirectInteractor.cs: fe1f586098db3f94120fefc0dd2cb838 -> 
+  custom:scripting/monoscript/fileName/XRLegacyGrabTransformer.cs: 6b2a337ce68919f21bf23649e65f263b -> 
+  custom:scripting/monoscript/fileName/XRBaseController.cs: 94589aeb191899104b4d0db6af6ba216 -> 
+  custom:scripting/monoscript/fileName/PinchGesture.cs: bd87c2706e999d6273c69ae4b74bfadc -> 
+  custom:scripting/monoscript/fileName/XRScreenSpaceController.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRInputDevicesTreeView.cs: b95eb16008a2abcc498c4236c3a10d47 -> 
+  custom:scripting/monoscript/fileName/TapGestureRecognizer.cs: c532528b9ad1a24f602bb16866ae5c67 -> 
+  custom:scripting/monoscript/fileName/XRBaseControllerInteractor.cs: 0fd82944907011e7ad5438db4ea0e9bf -> 
+  custom:scripting/monoscript/fileName/ContinuousMoveProviderBase.cs: c479f92350f8991116aefb7a618a826f -> 
+  custom:scripting/monoscript/fileName/XRInteractionDebuggerWindow.cs: 5c8551716abbe2f5e0bfec3dfc649c67 -> 
+  custom:scripting/monoscript/fileName/CanvasTracker.cs: f2a5bb1e5bd462604ab7b1f7bd53585e -> 
+  custom:scripting/monoscript/fileName/ARScaleInteractableEditor.cs: 8869eed257acd65b5ba1d42af8459ff9 -> 
+  custom:scripting/monoscript/fileName/XRGeneralGrabTransformer.cs: 550062c6a0e85d58a6116c0319a5e2ac -> 
+  custom:scripting/monoscript/fileName/IAsyncAffordanceStateReceiver.cs: cf7a6b99ede188946237b92d8409c95b -> 
+  custom:scripting/monoscript/fileName/AttachPointVelocityTracker.cs: d482264d794bf4554b73be22cf1f43d3 -> 
+  custom:scripting/monoscript/fileName/XRRayInteractorEditor.cs: af8d4cd0d2a4358506f5cf4846bca3f4 -> 
+  custom:scripting/monoscript/fileName/TweenableVariableSynchronousBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRSimulatedHMDState.cs: 67b8ef23063199b1108679be9daa890b -> 
+  custom:scripting/monoscript/fileName/ColorAffordanceThemeDatumPropertyDrawer.cs: 1d14f445ba1003d3fb8b377f4589be86 -> 
+  custom:scripting/monoscript/fileName/RegisteredUIInteractorCache.cs: 2a82fb802431ec83ae4d05db3471d0c6 -> 
+  custom:scripting/monoscript/fileName/TwoFingerDragGesture.deprecated.cs: 607e0b851d6132df7b1011f58503d6a1 -> 
+  custom:scripting/monoscript/fileName/Vector2MaterialPropertyAffordanceReceiver.cs: 94c9e880b21073ef2d8eaa2503fb3bad -> 
+  custom:scripting/monoscript/fileName/ClimbSettingsPropertyDrawer.cs: c3b6932a63ffe783ecb306e11579f607 -> 
+  custom:scripting/monoscript/fileName/XRDistanceEvaluator.cs: c86db23a931fbdba1c600eb337e40d37 -> 
+  custom:scripting/monoscript/fileName/ARPlacementInteractable.deprecated.cs: dbcbc819b8e90b82225f04e13fa52003 -> 
+  custom:scripting/monoscript/fileName/ColorAffordanceReceiver.cs: adcd00ecaa7c1a37b75997962e169377 -> 
+  custom:scripting/monoscript/fileName/DragGesture.cs: 9ee422a60d2a85accaee4f5aab4b91aa -> 
+  custom:scripting/monoscript/fileName/Vector2TweenableVariable.cs: 0322bc8d809ad2b0c334f484c41ddd7d -> 
+  custom:scripting/monoscript/fileName/BaseAffordanceTheme.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/PokeStateData.cs: 47b64c5a79f7fc70cb3a731d5c0c436f -> 
+  custom:scripting/monoscript/fileName/TouchscreenGestureInputControllerState.cs: 67e060f4074dcae82e96b0b68594e7c3 -> 
+  custom:scripting/monoscript/fileName/XRSimpleInteractable.cs: 22266363f826248f737f4dd3989d14d6 -> 
+  custom:scripting/monoscript/fileName/IMultiPokeStateDataProvider.cs: 3235ded9b44c7a5c31f9495006719974 -> 
+  custom:scripting/monoscript/fileName/ARScaleInteractable.cs: e3bc2e81e4d95c8f1269a26d269f5b19 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractableEditor.cs: 6dcb9af83474927a93ecd0ba6550c529 -> 
+  custom:scripting/monoscript/fileName/XRAngleGazeEvaluator.cs: 0202d7b311bfc86c3790acbe21cd90d2 -> 
+  custom:scripting/monoscript/fileName/AudioAffordanceThemeDatum.cs: d875c0527be46192f03366954f6ddda3 -> 
+  custom:scripting/monoscript/fileName/SectorInteractionEditor.cs: 151ad5d7c074b6f21d55649a3ad1085a -> 
+  custom:scripting/monoscript/fileName/IXROverridesGazeAutoSelect.cs: 9e7a16e834b5aff2bae7d3e31df3d8ed -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.XR.LegacyInputHelpers: da89cbc7455a59033fbb4142c55cbbb1 -> 52acfc53051faf8d3716fd452f740f78
+  custom:scripting/monoscript/fileName/CanSelectMultipleAttribute.cs: 67e3e05536aed858f8535f90720a6096 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractableEditor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRInteractionEditorSettingsEditor.cs: d3da9869f4c69482bb7579aec88d7d21 -> 
+  custom:scripting/monoscript/fileName/TweenableVariableAsyncBase.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/XRSimulatedController.cs: 220b0899d606c487f90fe17be8309d8c -> 
+  custom:scripting/monoscript/fileName/TapGesture.cs: 76dc86693f7761930eac87c4b745d917 -> 
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorSettingsEditor.cs: 517a67ef2caf0a9e7551aba194b19b44 -> 
+  custom:scripting/monoscript/fileName/XRBaseController.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ITeleportationVolumeAnchorFilter.cs: 475b2bf7b30ab93a3b3ee12dba4094b9 -> 
+  custom:scripting/monoscript/fileName/XRInteractionEvents.deprecated.cs: fcbe309a50f7b71f80088484b27d0c2a -> 
+  custom:scripting/monoscript/fileName/Vector2AffordanceThemeDatumPropertyDrawer.cs: d077c33db6b646114098a3e0fca4f6ee -> 
+  custom:scripting/monoscript/fileName/IXRInteractionStrengthInteractor.cs: 3b07c5b259081c0e16293ec927e23818 -> 
+  custom:scripting/monoscript/fileName/XRInteractorAffordanceStateProvider.cs: 919670466ffd9cea221a8213903cf3fb -> 
+  custom:scripting/monoscript/fileName/XRControllerState.cs: 400272f33c9d8ebbdc39a92f2e4c2899 -> 
+  custom:scripting/monoscript/fileName/BurstGazeUtility.cs: 77f225b25b67f7dc0beda4d53be50b39 -> 
+  custom:scripting/monoscript/fileName/TwistGestureRecognizer.cs: 666569e0236610275a93f126961bb0e5 -> 
+  custom:scripting/monoscript/fileName/Vector3AffordanceThemeDatum.cs: ed26cb399c4489f28264e63c01c35cfa -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/IXRHoverFilter.cs: 23544edc3d19a1917e5736111e2556f0 -> 
+  custom:scripting/monoscript/fileName/ColorTweenableVariable.cs: c3dbf8ddc57eed6b9a799635a76f2e3c -> 
+  custom:scripting/monoscript/fileName/IXRTargetEvaluatorLinkable.cs: 1eb61396c3bae810b948dd868452d66e -> 
+  custom:scripting/monoscript/fileName/ActionBasedController.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/PokeThresholdDatumProperty.cs: 5bd134dc122f590a0f786513b7bb1d0a -> 
+  custom:scripting/monoscript/fileName/IXRAimAssist.cs: 9a3a178d18b922c8c0c4d82c5810444e -> 
+  custom:scripting/monoscript/fileName/CharacterControllerDriver.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AudioAffordanceReceiver.cs: 5d0abdfd7ee601eead404198f988feba -> 
+  custom:scripting/monoscript/fileName/ActionBasedContinuousTurnProvider.cs: af1ca96d18cfd71782a9276612262e0d -> 
+  custom:scripting/monoscript/fileName/TeleportationAreaEditor.cs: 92ccce66a80aa3faeb1ac5964ec6c478 -> 
+  custom:scripting/monoscript/fileName/Vector3AffordanceReceiver.cs: f303c01869901c15f8fdcef5f7227924 -> 
+  custom:scripting/monoscript/fileName/ClimbSettingsDatumPropertyDrawer.cs: 30f9786920077b7aa320c56040ddf27c -> 
+  custom:scripting/monoscript/fileName/XRInteractionEditorGUI.cs: 55af97c9a6ccfdcb3df6e1486a21ed56 -> 
+  custom:scripting/monoscript/fileName/TwoFingerDragGestureRecognizer.cs: 1ef488c75f490de584bdf1993ee87468 -> 
+  custom:scripting/monoscript/fileName/ARBaseGestureInteractable.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TeleportVolumeDestinationSettingsDatum.cs: 020673c79e62b682ec6a866d090cff3a -> 
+  custom:scripting/monoscript/fileName/FollowPresetDatum.cs: dd28b1821b9d20403bba5e57297475f1 -> 
+  custom:scripting/monoscript/fileName/XRBaseTargetFilter.cs: 5f1f092e342b8103bc264d5861a4642e -> 
+  custom:scripting/monoscript/fileName/DeviceBasedContinuousMoveProvider.cs: 691ce08451213137e025232be75f0dcc -> 
+  custom:scripting/monoscript/fileName/ClimbInteractable.cs: 697fcffdca8404a1b7fb3d7eb6885fa5 -> 
+  custom:scripting/monoscript/fileName/Vector2AffordanceReceiver.cs: 59632cd144e13a158775d96450cf554a -> 
+  custom:scripting/monoscript/fileName/XRMainCameraFactory.cs: 34b6c1d6c1dc49c89dc2d09ef6dc5eff -> 
+  custom:scripting/monoscript/fileName/XRBaseControllerEditor.cs: 4a8277345c89f9cee07bb349e804d528 -> 
+  custom:scripting/monoscript/fileName/Vector4AffordanceThemeDatum.cs: 2924804b02cb62328e6008d577c055d7 -> 
+  custom:scripting/monoscript/fileName/TouchscreenGestureInputController.cs: f2f8ee4f24289a0fe51b249128fe5724 -> 
+  custom:scripting/monoscript/fileName/TeleportationMonitor.cs: 73b1877846603eb247a39762b57363fd -> 
+  custom:scripting/monoscript/fileName/ClimbSettingsDatum.cs: 777f60a3ae3c1a945df25fa7d8db74b2 -> 
+  custom:scripting/monoscript/fileName/ClimbSettings.cs: 898dc164cfe064d19971aee6b875420a -> 
+  custom:scripting/monoscript/fileName/TeleportVolumeDestinationSettingsPropertyDrawer.cs: 82b59bd99a41780563c6e1e6215720b2 -> 
+  custom:scripting/monoscript/fileName/BaseAffordanceStateProvider.cs: 6b87bc4e96a7e06e1848112b90d4fbe5 -> 
+  custom:scripting/monoscript/fileName/ContinuousTurnProviderBase.cs: 9192fea1bd87c523c7a81cc0bd177ad9 -> 
+  custom:scripting/monoscript/fileName/SmallRegistrationList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARTranslationInteractable.cs: 0467ff1e9614bae6d614df1aa1937fb7 -> 
+  custom:scripting/monoscript/fileName/NavigationModel.cs: 67717a4a0263d411f10eb22e3d21c8b0 -> 1c263830c18aeaed6a5f098797d42577
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEnabledDrawer.cs: 541b6aec5ac5006f13b8c9baf582b37e -> 
+  custom:scripting/monoscript/fileName/XRRig.cs: fe5743975d6210e85fcd46c44b3f6de4 -> 
+  custom:scripting/monoscript/fileName/PinchGestureRecognizer.cs: 11d008cce76e3bae85b61649a032f7c9 -> 
+  custom:scripting/monoscript/fileName/ARRotationInteractable.cs: ff083a1113a2dccb5f09689f6e1f7637 -> 
+  custom:scripting/monoscript/fileName/XRGazeAssistance.cs: 2b48996e27dc91b150392d9b347b7ac6 -> 
+  custom:scripting/monoscript/fileName/FloatAffordanceReceiver.cs: f36f1241636952fe012b144a04dc358a -> 
+  custom:scripting/monoscript/fileName/IXRInteractor.cs: bacaa8b418337e7d2012dbb458467d4f -> 
+  custom:scripting/monoscript/fileName/FloatAffordanceThemeDatum.cs: 4f85946f92eddc0b1e66d1e89a2f19bd -> 
+  custom:scripting/monoscript/fileName/TweenJobData.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/QuaternionEulerAffordanceReceiver.cs: b59721a50e4d57b39fec6d1f3d61e33a -> 
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorList.cs: 6eac206cdf0dec66a9b2dd3760cf63d8 -> 
+  custom:scripting/monoscript/fileName/XRControllerEditor.cs: 133b3580a38a6d5d59df465a1c23affe -> 
+  custom:scripting/monoscript/fileName/UIInputModule.cs: 7c2703761ac1780c11da12291cb2c4be -> 
+  custom:scripting/monoscript/fileName/ClimbTeleportInteractor.cs: dbf3284117545850a66ddc719b6d4e8e -> 
+  custom:scripting/monoscript/fileName/XRSimulatedHMD.cs: 7c9ef5d74f30c596b81cdb93105bad0c -> 
+  custom:scripting/monoscript/fileName/ARBaseGestureInteractableEditor.cs: 188a3623d86ce2f7e75cac0b17ce4b50 -> 
+  custom:scripting/monoscript/fileName/InputActionPropertyExtensions.cs: ea8bb1bd97ad26e2ffc07c6f1f4155fe -> 
+  custom:scripting/monoscript/fileName/DeviceBasedSnapTurnProviderEditor.cs: 18ec78615f99824d22fe22f5a7e9b9e4 -> 
+  custom:scripting/monoscript/fileName/XRInteractableSnapVolume.cs: 2a61bc4393fea3dfc216fd951db43df2 -> 
+  custom:scripting/monoscript/fileName/IXRGroupMember.cs: 2adfb2762aeb548049e6ead13be22c16 -> 
+  custom:scripting/monoscript/fileName/ClimbSettingsDatumProperty.cs: 99c86e293be4b19e8df24786d487d2c2 -> 
+  custom:scripting/monoscript/fileName/ARAnnotationInteractableEditor.cs: feacd83fb34fbdbaaba2866ed6df0e1a -> 
+  custom:scripting/monoscript/fileName/GizmoHelpers.cs: 0533db0ace409f69a9d271988f0b3a14 -> 
+  custom:scripting/monoscript/fileName/DeviceBasedSnapTurnProvider.cs: 37ea0e60c14f64ac846838a47b808c93 -> 
+  custom:scripting/monoscript/fileName/XRTargetFilterEditor.cs: 496b40b8d9551fd983b03674199e7240 -> 
+  custom:scripting/monoscript/fileName/XRRigEditor.deprecated.cs: cb59f3002a49341845ae0ef971378b51 -> 
+  custom:scripting/monoscript/fileName/XRSocketInteractorEditor.cs: fbe6e5a7c259c288daa875b45a01b374 -> 
+  custom:scripting/monoscript/fileName/IAttachPointVelocityTracker.cs: 143182ae93a885862d5274ac83632382 -> 
+  custom:scripting/monoscript/fileName/InteractionLayerMask.cs: a42b9f7c8a2aeb526d1f2d5fe27c2a70 -> 
+  custom:scripting/monoscript/fileName/Vector3AffordanceThemeDatumPropertyDrawer.cs: 533ca4be9b5324c83cf2aa3980cbbe64 -> 
+  custom:scripting/monoscript/fileName/PokeThresholdDatum.cs: 143d99db9f4c45d535f173ced473564c -> 
+  custom:scripting/monoscript/fileName/XRMissingEvaluatorTypeList.cs: f0631c74741b00968c644482940e97ee -> 
+  custom:scripting/monoscript/fileName/XRInteractionManager.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/FloatTweenJob.cs: fe3df545fc2e7f49db682f5ae1e70968 -> 
+  custom:scripting/monoscript/fileName/TunnelingVignetteController.cs: 7e92bdaa5e982395a368e20cf1eb9ff8 -> 
+  custom:scripting/monoscript/fileName/IAttachPointVelocityProvider.cs: 6b99f5037740b8e7c8c22cabc2fc22c5 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit.Editor: ba3cbdf3f650040e869a1d47af542b7f -> 
+  custom:scripting/monoscript/fileName/Vector4MaterialPropertyAffordanceReceiver.cs: f5309be8be6e15acf768c2079f2aad6c -> 
+  custom:scripting/monoscript/fileName/XRInputModalityManager.cs: aecc63f6a8911caebec1dea1326040fc -> 
+  custom:scripting/monoscript/fileName/TrackedDevicePhysicsRaycaster.cs: badbe4b4d308846ebd7b0f2668b54786 -> 
+  custom:scripting/monoscript/fileName/MaterialPropertyBlockHelper.cs: bc18d83f50ae0d2e4cd27478bad972f2 -> 
+  custom:scripting/monoscript/fileName/IXRReticleDirectionProvider.cs: fd5077538084f75e3bda024f4dc828ac -> 
+  custom:scripting/monoscript/fileName/LazyFollow.cs: 3c5ec47ad1ed59d174bbce5afecd9d8a -> 
+  custom:scripting/monoscript/fileName/ARAnnotationInteractable.cs: 22ac61b93cbc157e505675fc0833a424 -> 
+  custom:scripting/monoscript/fileName/BurstMathUtility.cs: d4b4ef7c9d36fce3201cb47755d48cfa -> 
+  custom:scripting/monoscript/fileName/TeleportationAnchor.cs: e4458ea15c3ed0e637cdab6f7eb90ccd -> 
+  custom:scripting/monoscript/fileName/XRLastSelectedEvaluator.cs: d933592c57a79ec1fcab412144e850a0 -> 
+  custom:scripting/monoscript/fileName/XRInteractorReticleVisual.cs: 1b0447df1a35ff180dfa52cea213f332 -> 
+  custom:scripting/monoscript/fileName/ARBaseGestureInteractable.cs: 24a410e28032ca1b149fc6bea9b61d63 -> 
+  custom:scripting/monoscript/fileName/XRBaseGrabTransformer.cs: b250b844e0c831f01d6a3a323cf63458 -> 
+  custom:scripting/monoscript/fileName/XRInteractionUpdateOrder.cs: 5874723d3e1c8322f93c8d0483a7949b -> 
+  custom:scripting/monoscript/fileName/InteractionLayerSettings.cs: 75c2865b9d94ae8235148408f65f56fa -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/BaseSynchronousAffordanceStateReceiver.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/TouchscreenGestureInputLayoutLoader.cs: 5205244a0283cdc8062c98522a4441d1 -> 
+  custom:scripting/monoscript/fileName/ARTransformerEditor.cs: 3679c2a4e66c8ebcf4a32435a13ab74e -> 
+  custom:scripting/monoscript/fileName/NativeCurve.cs: 39244467e1c5f969b9f4cd9ce148b8f1 -> 
+  custom:scripting/monoscript/fileName/TunnelingVignetteControllerEditor.cs: 445c827857bfb48a8f2792356cc370e2 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/TrackedDeviceModel.cs: 7aaaa20be082d1f9ec0a05ae8a9774e0 -> 
+  custom:scripting/monoscript/fileName/EditorComponentLocatorUtility.cs: 0b086b7f41bf64d52466885c0b670e3c -> 
+  custom:scripting/monoscript/fileName/TwoHandedGrabMoveProvider.cs: 0164e95bb5bdf264f500e6e363a53f6f -> 
+  custom:scripting/monoscript/fileName/LinkedPool.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/ISynchronousAffordanceStateReceiver.cs: 9c6146f08a55f42513d22353fd71fedc -> 
+  custom:scripting/monoscript/fileName/LocomotionSystem.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Vector3TweenableVariable.cs: cc95da2d3682b8fe6102773ef6c72379 -> 
+  custom:scripting/monoscript/fileName/SimulatedInputLayoutLoader.cs: 3895850963409b8abfbb332bbccc34de -> 
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorLoader.cs: 2fc387590d6612896e401fe69bd6698e -> 
+  custom:scripting/monoscript/fileName/ARSelectionInteractable.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CurveUtility.cs: 01ae726ba285f25f600b022f52be8a76 -> 
+  custom:scripting/monoscript/fileName/RegistrationList.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/XRInteractorLineVisualEditor.cs: d59e751310a6868afd785ca4d134c667 -> 
+  custom:scripting/monoscript/fileName/XRHelpURLConstants.cs: 7a5beb455c744c93847a166db6e29e55 -> 
+  custom:scripting/monoscript/fileName/IXRPokeFilter.cs: 61f6c3fc14b27d84607f59daa21c68dc -> 
+  custom:scripting/monoscript/fileName/QuaternionAffordanceReceiver.cs: f43c59723a73dd058ea74da3f970f0ee -> 
+  custom:scripting/monoscript/fileName/XRRig.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRBaseControllerInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/Vector2AffordanceThemeDatum.cs: c729e294a83befa1d794c55302991d0b -> 
+  custom:scripting/monoscript/fileName/XRFilterUtility.cs: 8226460e1ada394570fd699b1d8b572a -> 
+  custom:scripting/monoscript/fileName/XRTargetFiltersTreeView.cs: a8bfe257778517a1b61130f595a997c2 -> 
+  custom:scripting/monoscript/fileName/IXRActivateInteractable.cs: bd444fbf0b78d39507a2b2f840f5662e -> 
+  custom:scripting/monoscript/fileName/ARGestureInteractor.cs: 9575c0b6de3a7c9282eb8acab55e3d4f -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractorEditor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/CreateUtils.cs: d6eb62eebc0facd0262f4929f04adaf1 -> b981668764c459e615a9324c0616f22f
+  custom:scripting/monoscript/fileName/TeleportationProvider.cs: 83deebcfc95699a5a96894e5094e196e -> 
+  custom:scripting/monoscript/fileName/ReadOnlyReorderableList.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRDirectInteractor.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractable.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/HandMenu.cs: f5aec5c2bc2defca6d63b84dbaab0a37 -> 
+  custom:scripting/monoscript/fileName/FloatTweenableVariable.cs: 59d482573b9d02709bc9395dcc154761 -> 
+  custom:scripting/monoscript/fileName/ConstrainedMoveProvider.cs: dcfd6f71fb5d80dfde2d7fd59e6c8516 -> 
+  custom:scripting/monoscript/fileName/XRInteractionGroupEditor.cs: 5f35b404ca88519fc4dfc135c2b4cd54 -> 
+  custom:scripting/monoscript/fileName/TwoFingerDragGesture.cs: 607e0b851d6132df7b1011f58503d6a1 -> 
+  custom:scripting/monoscript/fileName/Gesture.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRBaseControllerInteractorEditor.cs: 6bec69b3ee1c7b958fa38a8f9a02e7a1 -> 
+  custom:scripting/monoscript/fileName/FloatAffordanceThemeDatumPropertyDrawer.cs: ae7db95eecc24a14bcd493b70e203e93 -> 
+  custom:scripting/monoscript/fileName/XRRayInteractor.cs: 9e84113555417771fd838862a21cb8a7 -> 
+  custom:scripting/monoscript/fileName/XRSocketGrabTransformer.cs: 01b82773be4212bebc7bb9162e7b03ac -> 
+  custom:scripting/monoscript/fileName/MouseModel.cs: 2ec01fc1524708be161d87ced09f8fd9 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.Interaction.Toolkit: 2fb51da53b23f35f6b15165b85273a03 -> 
+  custom:scripting/monoscript/fileName/ColorMaterialPropertyAffordanceReceiver.cs: f73f319339a5d136a9142eb8b57189f9 -> 
+  custom:scripting/monoscript/fileName/TeleportVolumeDestinationSettings.cs: fa963ea71d32f731a6b2e6c677ddeda2 -> 
+  custom:scripting/monoscript/fileName/BaseTeleportationInteractable.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractor.cs: b6c038e5908e8bcc747c4bab8c0ef5c3 -> 
+  custom:scripting/monoscript/fileName/InputActionManager.cs: 167b131b81ef251e0f316ffc8d93b793 -> 
+  custom:scripting/monoscript/fileName/IXRInteractionOverrideGroup.cs: 45129facc114a8e91c7fb83710a5e6bc -> 
+  custom:scripting/monoscript/fileName/SnapTurnProviderBase.cs: dc2a13b0bb50b32ab22f287a4afa7a7d -> 
+  custom:scripting/monoscript/fileName/HandExpressionName.cs: ca6e0274ed8c91cc117104b3a7cee539 -> 
+  custom:scripting/monoscript/fileName/InteractionLayerSettingsEditor.cs: f6cc0affb94e42b08693a91465ffe8ff -> 
+  custom:scripting/monoscript/fileName/ClimbProvider.cs: d84ca1b3c0fe1de589e8a4c223d55e25 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/XRInteractionEditorUtility.cs: 2ab54db5b629fe0151ff95e955386fc8 -> 
+  custom:scripting/monoscript/fileName/SortingHelpers.cs: 428c967c3a2f2c6392b18a0d35d823aa -> 
+  custom:scripting/monoscript/fileName/IXRScaleValueProvider.cs: f0b18f687f463ee3bae60d8709e9d23a -> 
+  custom:scripting/monoscript/fileName/BaseTeleportationInteractable.cs: 2b604ae64b3d66cec1e238faedda02d9 -> 
+  custom:scripting/monoscript/fileName/MaterialHelperBase.cs: c5a03ffcc840f5fe80388816e4210849 -> 
+  custom:scripting/monoscript/fileName/XRInteractorReticleVisualEditor.cs: 040aa111fed85ffa3a891f44456494b4 -> 
+  custom:scripting/monoscript/fileName/XRInteractionManagerEditor.cs: 27c2c0f41d2bce5722ec76e22c8366b4 -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractable.cs: df7265ec356a12173b8c0e00f7d7cc6f -> 
+  custom:scripting/monoscript/fileName/IXRDropTransformer.cs: 9a651ee93d10d51b179519d3562c3081 -> 
+  custom:scripting/monoscript/fileName/BaseAffordanceStateReceiver.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARSelectionInteractableEditor.cs: 9653fbc682261a998e7ae0c42ca1fa53 -> 
+  custom:scripting/monoscript/fileName/GestureTransformationUtility.cs: 4a0b743766d636156f7d9de571404ccf -> 
+  custom:scripting/monoscript/fileName/ColorGradientLineRendererAffordanceReceiver.cs: f6c60cd428b896c30eb5f3ca4230f364 -> 
+  custom:scripting/monoscript/fileName/ITweenJob.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRTargetEvaluatorEnabledAttribute.cs: 7f53d7530fead7c3cdab4a7ef834ec0f -> 
+  custom:scripting/monoscript/fileName/ActionBasedController.cs: 17fe007574651473d4b4a50c472ccb10 -> 
+  custom:scripting/monoscript/fileName/BaseInteractionEditor.cs: 7e2ab6eabe33a085ced4c9c5a77fc067 -> 
+  custom:scripting/monoscript/fileName/IXRCustomReticleProvider.cs: 43d121b58d7afb6983b968ae1c20e8d2 -> 
+  custom:scripting/monoscript/fileName/TwistGesture.cs: e678504190b3c32eb24267be6171b54d -> 
+  custom:scripting/monoscript/fileName/XRBaseInteractorEditor.cs: 2c9f6ad4eb692d0fa3008ba333d5f64e -> 
+  custom:scripting/monoscript/fileName/IXRTargetPriorityInteractor.cs: 24d6ec2f7a8cd239feeb9ea80308601e -> 
+  custom:scripting/monoscript/fileName/ImageColorAffordanceReceiver.cs: 603dee3758540afb7530f2df6d9abea7 -> 
+  custom:scripting/monoscript/fileName/ColorAffordanceThemeDatum.cs: b4b3b8220ba7b68a3d27a356838145d7 -> 
+  custom:scripting/monoscript/fileName/IXRTargetFilter.cs: 357cdd1f33abf539badf767cd16a240d -> 
+  custom:scripting/monoscript/fileName/XRInteractableUtility.cs: 2166c9d829bc108ffe4c50d73b002a48 -> 
+  custom:scripting/monoscript/fileName/HandExpressionCapture.cs: 79a65da58c2a526c97c6c089768712fb -> 
+  custom:scripting/monoscript/fileName/XRInteractorsTreeView.cs: 166e43a17a5e14f5b5d8df91f1a8f2bb -> 
+  custom:scripting/monoscript/fileName/CardinalUtility.cs: 6a22dbb5ac678ef2dc1a53774c3f693f -> 
+  custom:scripting/monoscript/fileName/DragGesture.deprecated.cs: 9ee422a60d2a85accaee4f5aab4b91aa -> 
+  custom:scripting/monoscript/fileName/DragGestureRecognizer.cs: f5317ef537fead5e7fbd31269598468c -> 
+  custom:scripting/monoscript/fileName/UniformTransformScaleAffordanceReceiver.cs: f3107034e239f550854d31e2a7d3cf78 -> 
+  custom:scripting/monoscript/fileName/ARRotationInteractableEditor.cs: 0b8c2e7e563b410957ce9fd7da06b96d -> 
+  custom:scripting/monoscript/fileName/XRDeviceSimulatorSettings.cs: ed11d79f0e7d190a3f3a6746b2261cd7 -> 
+  custom:scripting/monoscript/fileName/Gesture.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/XRTintInteractableVisual.cs: c4a8e8b8a5508c010b22b189b1154dca -> 
+  custom:scripting/monoscript/fileName/XRControllerRecording.deprecated.cs: 90647cc400823b41df847a6cbfc29026 -> 
